@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-variant-ligatures: none;
+    letter-spacing: 0.1em;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    /*background-color: aquamarine;*/
+}
+
+.header-inner {
+    width: 90%;
+    height: 50px;
+    /*background-color: chartreuse;*/
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.header-inner img {
+    height: 50px;
+    width: 140px;
+    float: left;
+    display: block;
+    cursor: pointer;
+}
+
+.header-inner ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.header-inner ul li {
+    margin: 20px 10px;
+}
+
+.header-inner ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header-inner ul li a:hover {
+        background: url(images/navbar.png) no-repeat center bottom;
+        padding-bottom: 5px;
+        display: inline-block;
+        color: #4c77af;
+        border-bottom: 4px solid #4c77af;
+        height: -5px;
+}
+
+#nav-drawer {
+    display: none;
+}
+
+（ページの最上部へスクロールする）CSS
+.page-top{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 100;
+}
+.page-top a{
+  display: table-cell;
+  vertical-align: middle;  
+  width: 70px;
+  height:70px;
+  background-color: black;
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;  
+}
+
+.page-top{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 100;
+}
+
+.page-top a{
+  display: table-cell;
+  vertical-align: middle;  
+  width: 70px;
+  height:70px;
+  background-color: #4c77af;
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50px;  
+}
+
+.TopPage {
+    height: 520px;
+    width: auto;
+    background-color: #f3efef;
+}
+
+
+
+.Billboard {
+    background: url(hukidashi.png) 0 0 no-repeat;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding-top: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 60px;
+}
+
+.Billboard #h-1 {
+    font-size: 50px;
+    color: white;
+}
+
+.Billboard #h-2 {
+    color: white;
+}
+
+.TopPage img {
+    width: 70%;
+    height: 500px;
+    position: relative;
+    float: right;
+}
+
+.Concept {
+    height: 600px;
+    width: 100%;
+    /*background-color: teal;*/
+    padding-top: 40px;
+}
+
+.Concept_wrap {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.Concept_wrap .C-h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Concept_wrap .C-h3 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.Concept_wrap p {
+    margin-top: 40px;
+}
+
+.picture {
+    height: 650px;
+    width: 100%;
+}
+
+.picture img {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.mission {
+    height: 675px;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.mission_wrap {
+    height: 365px;
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.M-h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mission_wrap .M-h3 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.mission_wrap .M-p {
+    margin-top: 40px;
+}
+
+.Position {
+    height: 385px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.Position h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Position #reculut_btn {
+    width: 20%;
+    height: 45px;
+    background-color: #333333;
+    display: block;
+    margin: 125px auto 0 auto;
+    line-height: 3;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.Position p {
+    margin-top: 35px;
+}
+
+.Position a {
+    text-decoration: none;
+}
+
+.About {
+    width: 100%;
+    height: 425px;
+    display: flex;
+}
+
+.About-left {
+    width: 50%;
+    height: 425px;
+    background-color: #4c77af;
+}
+
+.About-right {
+    width: 50%;
+    height: 425px;
+    background-color: #4c77af;
+}
+
+.About-wrap {
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin: 80px auto 0 auto;
+    color: white;
+}
+
+.About-wrap h2 {
+    font-size: 30px;
+}
+
+.About-wrap h3 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.About-wrap p {
+    margin: 30px 0 40px 0;
+    font-size: 14px;
+    line-height: 2;
+    text-align: left;
+}
+
+#ment-L {
+    width: 40%;
+    height: 45px;
+    background-color: white;
+    display: block;
+    margin: 70px auto 0 auto;
+    line-height: 3;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #4c77af;
+    font-weight: 600;
+}
+
+#ment-R {
+    width: 40%;
+    height: 45px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    line-height: 3;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #4c77af;
+    font-weight: 600;
+}
+
+
+footer {
+    height: 290px;
+    width: 100%;
+    background-color: #13202b;
+}
+
+.footer-wrap {
+    display: flex;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+}
+
+.footer_bar p{
+    color: white;
+}
+
+.footer-wrap nav ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    height: 80px;
+    margin-left: 20%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer-wrap nav ul li a{
+    padding-left: 50px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
